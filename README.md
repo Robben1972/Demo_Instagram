@@ -48,6 +48,7 @@ pip install -r requirements.txt
 Run the following commands to apply migrations and set up the database schema:
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
